@@ -1,0 +1,414 @@
+@font-face{
+    font-family: robo;
+    src: url(fuentes/Roboto-Regular.ttf);
+}
+
+h2,p,button,h3,ul,li{
+    font-family: robo;
+}
+
+*{
+    margin: 0%;
+    padding: 0.2em;
+    box-sizing: border-box;
+}
+
+.back{
+    width: 100%;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-repeat: repeat-x ;
+    background-attachment: fixed;
+    background-color: #EFFBFF;
+}   
+#menu{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+}
+
+#menu button{
+
+        background-color: white;
+        font-size: 20px;
+        padding: 14px 40px;
+        border-radius: 50px
+}
+
+#menu button{
+border: none;
+color: black;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer
+}
+
+
+#banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 1em;
+    line-height: 1.5;
+    margin-bottom: 5em;
+}
+
+#banner div{
+    width: 100%;
+
+}
+
+#banner figure{
+    width: 100%;
+
+    
+}
+#banner h2{
+    color: #00212E;
+}
+
+#banner button{
+
+        background-color: #FE52C0;
+        font-size: 20px;
+        padding: 14px 40px;
+        border-radius: 50px
+    
+}
+
+#banner button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+.xd{
+    width: 100%;
+    height: 100%;
+}
+
+.sc1{
+    width: 100%;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+
+
+.text1{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    line-height: 1.5;
+    box-shadow: 0 0 30px  gray;
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+.text1 h3{
+    margin-bottom: 0.2em;
+    font-size: 30px;
+    color: #00212E;
+}
+
+.text1 p{
+    font-size: 22px;
+    color: #979B9E;
+}
+
+.text2{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 1em;
+    line-height: 1.5;
+    box-shadow: 0 0 30px  gray;
+    margin-bottom: 2em;
+}
+
+.text2 h3{
+    margin-bottom: 0.2em;
+    font-size: 30px;
+    color: #00212E;
+}
+
+.text2 p{
+    font-size: 22px;
+    color: #979B9E;
+}
+
+.text3{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 1em;
+    line-height: 1.5;
+    box-shadow: 0 0 30px  gray;
+    margin-bottom: 2em;
+}
+
+.text3 h3{
+    margin-bottom: 0.2em;
+    font-size: 30px;
+    color: #00212E;
+}
+
+.text3 p{
+    font-size: 22px;
+    color: #979B9E;
+}
+
+.ha{
+    width: 100%;
+}
+
+.etto{
+    background-color: #00252f;
+    color: #F1FFFF;
+}
+
+.grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 2em 1.5em 2em 1.5em;
+    gap: 7.5em;
+    grid-template-columns:  0.5fr 0.8fr 0.5fr;
+}
+
+.caja3f{
+    width: 100%;
+    height: 100%;
+    padding: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.caja2f{
+    column-count: 2;
+    line-height: 2.5;
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ico{
+    width: 35px;
+    height: 35px;
+    border-style: inset;
+    border-radius: 100%;
+}
+
+.pa{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+.Copyright{
+    display: flex;
+}
+
+.Copyright button{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: #00252f;
+    color: #F1FFFF;
+}
+
+
+
+.juan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.juan button{
+        background-color: #FE52C0;
+        font-size: 20px;
+        padding: 14px 40px;
+        border-radius: 50px
+}
+
+.juan button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer
+}
+
+
+.imgg{
+    width: 65%;
+}
+.Hunddle{
+    width: 75%;
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    body{
+        background-color: none;
+    }
+
+    .back{
+        width: 100%;
+    }
+
+    #banner{
+        flex-direction: column;
+        padding: 0em;
+        margin-top: 0.8em;
+    }
+
+    .pt1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .ha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .xd{
+        background-size: cover; 
+        width: 100%;
+    }
+
+    .sc1{
+        padding: 0em;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    .imgg{
+        background-size: cover;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text1
+    {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .Hunddle{
+        width: 60%;
+    }
+
+    .caja1f{
+        margin-top: 0.7em;
+        padding: 0em;
+        
+    }
+
+    .caja2f{
+        flex-direction: column;
+        padding: 0em;
+        column-count:1;
+    }
+
+    .caja3f{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 0.8em;
+    }
+
+    .text2{
+        flex-direction: column-reverse;
+        padding: 2em;
+    }
+
+    .text3{
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .logo{
+        width: 35%;
+    }
+
+
+    .sc1{
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 2.3em;
+        padding-bottom: 1.8em;
+    }
+    
+    .pa{
+        margin-top: 1.5em;
+    }
+
+
+}
+/*
+
+.jeje{
+    background-image: url(images/rei\ \(2\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+*/
